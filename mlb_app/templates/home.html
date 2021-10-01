@@ -1,0 +1,9 @@
+{% block content %}
+
+<form class="d-flex" type="get" action="{% url 'info:search_player' %}">
+  <input class="form-control me-2" type="search" id="q" name="q" placeholder="Search Player by Last Name"
+    aria-label="Search">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+{% endblock %}

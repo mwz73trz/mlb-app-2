@@ -1,0 +1,12 @@
+{% block content %}
+
+{% for player in players %}
+
+<h1>
+  Name: {{player.name}}
+</h1>
+<h4>Team: {{player.team}}</h4>
+<h4>ID: {{player.id}}</h4>
+{% endfor %}
+
+{% endblock %}
